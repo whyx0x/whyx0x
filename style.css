@@ -1,0 +1,323 @@
+*{
+    padding: 0; 
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box; /* para que la "caja" sea siempre del mismo tamaño */
+
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Arista 2.0 Light', sans-serif;
+    background-image: url("Imagenes/fondo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Barra de desplazamiento */
+
+body::-webkit-scrollbar {
+    width: 2vh;
+}
+
+body::-webkit-scrollbar-track {
+    background: url("Imagenes/fondo.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+body::-webkit-scrollbar-thumb {
+  background: #5a0081;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #7600a9;
+}
+
+/* Barra de navegación */
+
+nav{
+    font-size: 1.1rem;
+    max-width: 1500px;
+    margin: auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    border-bottom: 1px solid #B200ff; 
+}
+
+.navLogo{
+    font-family: 'Arista 2.0 Alternate Light', sans-serif;
+}
+
+.navLogo a{
+    transition: all 0.3s ease;
+    color: #fff;
+}
+
+.navLogo a:hover{
+    color: #999999;
+}
+
+.navLogo span{
+    text-shadow: 0px 0px 10px #b60cff;
+    color: #B200FF;
+}
+
+.navLinks{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem; 
+}
+
+.link a{
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.link a:hover{
+    color: #B200FF;
+}
+
+.link a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #B200FF;
+    transition: all 0.3s ease;
+
+}
+.link a:hover::after{
+    width: 90%;
+}
+
+/* Cabecera de la página */
+
+header{
+    backdrop-filter: blur(4px) brightness(120%);
+    margin: auto;
+    max-width: 1500px;
+    color: #fff;
+}
+
+.header{
+    padding: 5rem;
+    text-align: center;
+}
+
+.header h1{ 
+    font-size: 4.5rem;
+    font-family: 'Arista 2.0 Alternate Light', sans-serif;
+}
+
+.header h1 span{
+    font-weight: 200;
+    text-shadow: 0px 0px 30px #b60cff,0 0 10px #c94dff2b;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #B200FF;
+}
+
+.header p{
+    font-family: 'Arista 2.0 Light', sans-serif;
+    padding: 10px;
+    font-size: 1.4rem; 
+}   
+
+.header p span{
+    color: #B200FF;
+}
+
+.lineachica{
+    align-content: center;
+    max-width: 1500px;
+    position: absolute;
+    z-index: 777;
+    background-color: #B200FF;
+    width: 100%;
+    height: 1px;
+}
+
+/* redes que aparecen al costado derecho de la página */
+
+.redesCostado{
+    z-index: 888;
+    position: fixed;
+    right: 1rem;
+    top: 9.5rem;
+    bottom: 50%;
+
+}
+
+.redesCostado li{
+    font-size: 1.8rem;
+    list-style: none;
+    margin-top: 20px;
+}
+.redesCostado a{
+    color: #b300ff5e;
+    transition: all 0.3s ease;
+}
+
+.redesCostado a:hover{
+    font-size: 2rem;
+    color: #B200FF;
+    text-shadow: 0px 0px 30px #b60cff;
+}
+
+/* Tarjeta con "Programación" y "Aprender (...)"*/
+
+article{
+    backdrop-filter: blur(4px); 
+    margin: 7rem auto;
+    padding: 2.5rem;
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid #B200FF;
+    box-shadow: 0px 0px 20px #b300ff5c;
+    width: 500px;
+    
+}
+
+article h3{
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Arista 2.0 Alternate Light', sans-serif;
+    border-bottom: 2px dashed #B200FF;
+}
+
+article ul{
+    list-style: none;
+}
+
+article span{
+    color: #B200FF;
+}
+
+.metasL1{
+    padding: 3rem 2rem 0 2rem;
+    font-size: 1.6rem;
+}
+
+.metasUl{
+    font-size: 1.3rem;
+    text-align: left;
+    padding: 1rem 1rem 0 4rem;
+    line-height: 1.5;
+}
+
+#metasUlSpan{
+    color: #fff;
+    font-family: 'Arista 2.0 Alternate Light', sans-serif;
+}
+
+.metasUl a{
+    transition: all 0.3s ease;
+    color: #5a0081;
+}
+
+.metasUl a:hover{
+    text-shadow: 0px 0px 20px #b60cff;
+    color: #B200FF;
+}
+
+.metasL2{
+    padding: 2rem 2rem 0 2rem;
+    font-size: 1.5rem;
+}
+
+.contenedor{    
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 4rem;
+}
+
+.contenedor h5{
+    font-size: 1rem;
+    font-weight: 200;
+    color: #ccc;
+}
+.contenedor span{
+    text-shadow: 0px 0px 10px #b60cff;
+    color: #B200FF;
+}
+
+.columna{
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.columna a{
+    color: #ccc;
+    transition: all 0.3s ease;
+}
+
+.columna a:hover{
+    font-size: 1.1rem;
+    color: #fff;
+    text-shadow: 0px 0px 30px #fff;
+}
+
+.perrito{
+    max-width: 400px;
+    backdrop-filter: blur(4px); 
+    margin: 6rem auto;
+    border-radius: 20px;
+    border: 1px solid #B200FF;
+    box-shadow: 0px 0px 20px #b300ff5e;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.perrito h2{
+    color: #fff;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.perrito p{
+    color: #fff;
+    padding: 2rem;
+}
+
+.perrito span{
+    color: #B200FF;
+}
+
+.perrito img{
+    border-radius: 10px;
+}
+
+.perritoBoton{
+    height: 4rem;
+    padding: 1rem;
+    background: transparent;
+    border-radius: 0 0 17px 17px;
+    border-top: 1px solid #b300ff5e;
+    color: #b300ff5e;
+    transition: all 0.3s ease;
+}
+
+.perritoBoton:hover{
+    border-top: 1px solid #B200FF;
+    box-shadow: 0px 0px 20px #b300ff5e;
+    background: #0000004b;
+}
+.perritoBoton a:hover{
+    color: #B200FF;
+    text-shadow: 0px 0px 20px #b60cff;
+}
