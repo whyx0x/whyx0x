@@ -206,9 +206,9 @@ article span{
     color: #B200FF;
 }
 
-.metasL1{
+.metasL1, .metasL2{
     padding: 3rem 2rem 0 2rem;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .metasUl{
@@ -231,11 +231,6 @@ article span{
 .metasUl a:hover{
     text-shadow: 0px 0px 20px #b60cff;
     color: #B200FF;
-}
-
-.metasL2{
-    padding: 2rem 2rem 0 2rem;
-    font-size: 1.5rem;
 }
 
 .contenedor{    
@@ -317,7 +312,67 @@ article span{
     box-shadow: 0px 0px 20px #b300ff5e;
     background: #0000004b;
 }
+
 .perritoBoton a:hover{
     color: #B200FF;
     text-shadow: 0px 0px 20px #b60cff;
 }
+
+@media (max-width: 600px){
+
+    .navLogo{
+        font-size: 0.8rem;
+    }
+
+    .navLinks, .redesCostado{
+        display: none;
+    }
+
+    .header{
+        padding: 5rem 1rem;
+    }
+
+    .header h1{
+        text-align: center;
+        font-size: 2.3rem;
+    }
+
+    .header p{
+        font-size: 0.8rem;
+    }
+
+    article{
+        margin: 3rem auto 3rem auto;
+        width: 17rem;
+    }
+
+    article h3{
+        font-size: 1.5rem;
+    }
+
+    .metasL1, .metasL2{
+        padding: 2.5rem 0.5rem 0 0;
+        font-size: 1.1rem;
+    }
+
+    .metasUl{
+        font-size: 0.9rem;
+        padding: 1rem 1rem 0 2rem;
+    }
+
+    .contenedor{
+        margin: 0;
+        gap: 2rem;
+    }
+    .contenedor h5, .columna{
+        font-size: 0.8rem;
+    }
+
+    .columna{
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+}
+
