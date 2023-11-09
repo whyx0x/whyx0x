@@ -17,7 +17,8 @@ Hola! esta es mi primera página web. Fue creada gracias al curso BA Multiplica 
 
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/whyx0x/imagenes/main/Captura%20web_9-11-2023_16847_whyx0x.github.io.jpeg?token=GHSAT0AAAAAACJ6BSW3M47ZADV4LC72PYGCZKNGI5Q)
+![Screenshot de WhyWeb](https://i.imgur.com/qo4sFtX.png)
+![Screenshot de WhyWeb](https://i.imgur.com/ejArLPq.png)
 
 
 ##  Links
