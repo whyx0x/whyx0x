@@ -13,7 +13,7 @@ a{
 
 body{
     font-family: 'Arista 2.0 Light', sans-serif;
-    background-image: url("Imagenes/fondo.png");
+    background: url("../img/fondo.png");
     background-size: cover;
     background-position: center;
 }
@@ -25,17 +25,17 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: url("Imagenes/fondo.png");
+    background: url("../img/fondo.png");
     background-size: cover;
     background-position: center;
   }
 
 body::-webkit-scrollbar-thumb {
-  background: #5a0081;
+  background: #b300ff5c;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-  background: #7600a9;
+  background: #B200FF;
 }
 
 /* Barra de navegación */
@@ -62,7 +62,7 @@ nav{
 }
 
 .navLogo a:hover{
-    color: #999999;
+    color: #ccc;
 }
 
 .navLogo span{
@@ -225,7 +225,7 @@ article span{
 
 .metasUl a{
     transition: all 0.3s ease;
-    color: #5a0081;
+    color: #b300ff5c;
 }
 
 .metasUl a:hover{
@@ -320,10 +320,6 @@ article span{
 
 @media (max-width: 600px){
 
-    body{
-        background-color: #0d0f0e;
-    }
-
     .navLogo{
         font-size: 1rem;
     }
@@ -365,9 +361,9 @@ article span{
     }
 
     .contenedor{
-        margin: 0;
         gap: 2rem;
     }
+
     .contenedor h5, .columna{
         font-size: 0.8rem;
     }
@@ -377,6 +373,26 @@ article span{
         flex-wrap: wrap;
         gap: 1rem;
     }
+    
+    .perrito{
+        margin: 3rem auto 3rem auto;
+        max-width: 17rem;
+    }
 
+    .perrito h2{
+        font-size: 1.3rem;
+    }
+
+    .perrito img{
+        max-width: 12rem;
+    }
+
+    .perrito p{
+        font-size: 0.8rem;
+    }
+
+    .perritoBoton{
+        font-size: 1rem;
+    }
 }
 
