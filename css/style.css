@@ -327,13 +327,14 @@ article span{
 
     nav{
         backdrop-filter: blur(2px) brightness(20%);
+        top: 0;
         z-index: 888;
         position: fixed;
     }
 
     .lineaarriba{
+        top: 0;
         z-index: 999;
-        height: 0.5px;
         margin-top: 4rem;
     }
 
@@ -392,7 +393,7 @@ article span{
     }
     
     .perrito{
-        margin: 3rem auto 3rem auto;
+        margin: 8rem auto;
         max-width: 17rem;
     }
 
