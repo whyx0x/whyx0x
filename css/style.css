@@ -49,7 +49,6 @@ nav{
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-    border-bottom: 1px solid #B200ff; 
 }
 
 .navLogo{
@@ -139,7 +138,7 @@ header{
     color: #B200FF;
 }
 
-.lineachica{
+.lineachica1, .lineachica2{
     align-content: center;
     max-width: 1500px;
     position: absolute;
@@ -233,6 +232,8 @@ article span{
     color: #B200FF;
 }
 
+/* Pie de la página */
+
 .contenedor{    
     display: flex;
     flex-direction: row;
@@ -266,6 +267,8 @@ article span{
     color: #fff;
     text-shadow: 0px 0px 30px #fff;
 }
+
+/* tarjeta "perrito" dentro del sorpresa.html */
 
 .perrito{
     max-width: 400px;
@@ -318,7 +321,20 @@ article span{
     text-shadow: 0px 0px 20px #b60cff;
 }
 
+/* Inicio de diseño responsive */
+
 @media (max-width: 600px){
+
+    nav{
+        backdrop-filter: blur(2px) brightness(20%);
+        z-index: 5;
+        position: fixed;
+    }
+
+    .lineachica1{
+        height: 0.1px;
+        margin-top: 4rem;
+    }
 
     .navLogo{
         font-size: 1rem;
@@ -329,7 +345,7 @@ article span{
     }
 
     .header{
-        padding: 5rem 1rem;
+        padding: 8rem 1rem 5rem 1rem;
     }
 
     .header h1{
@@ -392,7 +408,7 @@ article span{
     }
 
     .perritoBoton{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 }
 
