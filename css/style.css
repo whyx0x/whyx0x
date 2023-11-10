@@ -138,7 +138,7 @@ header{
     color: #B200FF;
 }
 
-.lineachica1, .lineachica2{
+.lineaarriba, .lineaabajo{
     align-content: center;
     max-width: 1500px;
     position: absolute;
@@ -331,7 +331,7 @@ article span{
         position: fixed;
     }
 
-    .lineachica1{
+    .lineaarriba{
         z-index: 999;
         height: 0.5px;
         margin-top: 4rem;
