@@ -3,10 +3,19 @@
     margin: 0;
     outline: none;
     border: none;
+    font-display: swap;
     box-sizing: border-box; /* para que la "caja" sea siempre del mismo tamaño */
 
 }
 
+@font-face{
+    font-family: 'Arista 2.0 Light';
+    src: url(../fonts/Arista2.0\ light.ttf);
+}
+@font-face{
+    font-family: 'Arista 2.0 Alternate Light';
+    src: url(../fonts/Arista2.0\ Alternate\ light.ttf);
+}
 a{
     text-decoration: none;
 }
