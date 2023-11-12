@@ -355,7 +355,7 @@ article span{
     }
 
     .navLogo{
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 
     .navLinks, .redesCostado{
@@ -368,29 +368,29 @@ article span{
 
     .header h1{
         text-align: center;
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .header p{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     article{
         margin: 3rem auto 3rem auto;
-        width: 17rem;
+        width: 18rem;
     }
 
     article h3{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .metasL1, .metasL2{
         padding: 2.5rem 0.5rem 0 0;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 
     .metasUl{
-        font-size: 0.9rem;
+        font-size: 1rem;
         padding: 1rem 1rem 0 2rem;
     }
 
@@ -399,7 +399,7 @@ article span{
     }
 
     .contenedor h5, .columna{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .columna{
@@ -410,11 +410,11 @@ article span{
     
     .perrito{
         margin: 8rem auto;
-        max-width: 17rem;
+        max-width: 18rem;
     }
 
     .perrito h2{
-        font-size: 1.3rem;
+        font-size: 1.6rem;
     }
 
     .perrito img{
@@ -422,7 +422,7 @@ article span{
     }
 
     .perrito p{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .perritoBoton{
