@@ -1,5 +1,5 @@
 
-# <WhyWeb/>
+# WhyWeb
 
 Hola! esta es mi primera página web.
 
