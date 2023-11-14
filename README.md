@@ -1,14 +1,20 @@
+# <WhyWeb/>
 
-# WhyWeb
+Hola! esta es mi primera página web.
 
-Hola! esta es mi primera página web. Fue creada gracias al curso BA Multiplica 2.0 y mi gran profesor [@lusianox](https://github.com/lusianox).
+Fue creada gracias al curso BA Multiplica 2.0 y mi gran profesor [@lusianox](https://github.com/lusianox).
+
+
+## Link directo a la página
+
+https://whyx0x.github.io/
 
 ## Color Reference
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | Primary Color | ![B200FF](https://via.placeholder.com/10/B200FF?text=+) #B200FF |
-| Secondary Color | ![#fff](https://via.placeholder.com/10/fff?text=+) #fff |
+| Secondary Color | ![E2E2E2](https://via.placeholder.com/10/E2E2E2?text=+) #E2E2E2 |
 | Complementary Color | ![#b300ff5e](https://via.placeholder.com/10/b300ff5e?text=+) #b300ff5e |
 | Other Color | ![#ccc](https://via.placeholder.com/10/ccc?text=+) #ccc |
 | Other Color | ![#b60cff](https://via.placeholder.com/10/b60cff?text=+) #b60cff |
@@ -17,8 +23,7 @@ Hola! esta es mi primera página web. Fue creada gracias al curso BA Multiplica 
 
 ## Screenshots
 
-![Screenshot de WhyWeb](https://i.imgur.com/qo4sFtX.png)
-![Screenshot de WhyWeb](https://i.imgur.com/ejArLPq.png)
+![App Screenshot](https://raw.githubusercontent.com/whyx0x/imagenes/main/Captura%20web_9-11-2023_16847_whyx0x.github.io.jpeg?token=GHSAT0AAAAAACJ6BSW3M47ZADV4LC72PYGCZKNGI5Q)
 
 
 ##  Links
